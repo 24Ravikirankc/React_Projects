@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  --text: #28323f;
+  --heading: #1e2938;
+  --border: #dfd8ca;
+  --code-bg: #f8f6ef;
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 12% 20%, #ffe3b9 0%, transparent 40%),
+    radial-gradient(circle at 90% 0%, #cdeee3 0%, transparent 36%),
+    #fffef9;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: var(--heading);
+  font-family: 'Fraunces', serif;
+  letter-spacing: -0.02em;
+}
+
+p {
+  margin: 0;
+}
+
+code,
+pre {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+code {
+  background: var(--code-bg);
+  border-radius: 6px;
+  padding: 0.1rem 0.35rem;
+}
